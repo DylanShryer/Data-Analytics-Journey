@@ -1,0 +1,12 @@
+name: da-env
+channels:
+  - defaults
+dependencies:
+  - pandas
+  - jupyter
+  - seaborn
+  - numpy
+  - python=3.11
+  - scikit-learn
+  - matplotlib
+prefix: /opt/anaconda3/envs/da-env

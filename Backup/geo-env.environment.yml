@@ -1,0 +1,14 @@
+name: geo-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - gdal
+  - ipykernel
+  - geopandas
+  - pyproj
+  - fiona
+  - rtree
+  - shapely
+prefix: /opt/anaconda3/envs/geo-env
