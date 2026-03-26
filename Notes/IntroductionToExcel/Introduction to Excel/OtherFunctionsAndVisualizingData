@@ -1,0 +1,150 @@
+Other Functions in Excel Video
+    Function categories
+        Text
+        Date and time
+        Math and trig
+        Statistical
+        Financial
+        Logical
+        Lookup References
+        Engineering
+        Cube
+        Information
+        Web
+        Compatibility
+    Text
+        LEFT()
+            Syntax
+                LEFT(text, [num_chars])
+            Returns the first character(s) in a string based on the specified number of characters
+            Example
+                LEFT("Datacamp", 4) -> Data
+        RIGHT()
+            Syntax
+                RIGHT(text, [num_chars])
+            Returns the last character(s) in a string based on the specified number of characters
+            Example
+                RIGHT("Datacamp", 4) -> Camp
+        UPPER()
+            Syntax
+                UPPER(text)
+            Converts string to uppercase
+            Example
+                UPPER("Datacamp") -> DATACAMP
+        LOWER()
+            Syntax
+                LOWER(text)
+            Converts string to lowercase
+            Example
+                LOWER("Datacamp") -> datacamp
+    Data and Time
+        DATE()
+            Syntax
+                DATE(year, month, day)
+            Returns a sequential serial number that represents a particular date
+        DAY()
+            Syntax
+                DAY(<serial_number>)
+            Returns the day of a corresponding date as an integer
+        YEAR() 
+            Syntax
+                YEAR(<serial_number>)
+            Returns the year to a corresponding data as an integer
+    Math and Trig
+        ROUND()
+            Syntax
+                ROUND(number, num_digits)
+            Returns a number rounded to a specified number of digits
+            Example
+                ROUND(-1.475, 2) = -1.48
+        ABS()
+            Syntax
+                ABS(number)
+            Returns the absolute value of a number without its sign
+            Example
+                ABS(-2) = 2
+        SUM()
+    Statistical
+        AVERAGE()
+        COUNT()
+        MIN()
+        MAX()
+
+To the left, to the left Exercise
+    What does the following Excel formula return?
+        =LEFT("DataCamp Rocks", 4)
+            Data
+
+Applying Formatting Functions Video
+    popular_spotify_songs_starter.xlsx
+    A negative number in ROUND() rounds a number to the left
+        Round down to tens for -1
+        Round down to hundreds for -2
+        Round down to thousands for -3
+
+Product Profiles Exercise
+    3_1_product_profiles.xlsx
+
+Profit Performance
+    3_2_profit_performance.xlsx
+
+Formatting with Functions
+    3_3_formatting_with_functions.xlsx
+
+Visualizing Data in Excel Video
+    What is data visualization
+        Graphical representation of data using charts, graphs, and other visual tools
+        Presentation of (complex) data
+            Identify trends
+            Discover outliers
+        Enchances understanding and retention of info 
+        Critical part of the decision-making process in data-driven organizations
+    Excel for data visualization
+        Offers a wide variety of ways to visualize data
+            Simple 2D charts to complex 3D models
+            Customization options
+                Legends
+                Styles
+                Labels
+                Color schemes
+    Visualization options
+        Pie chart
+        Bar chart 
+        Histogram 
+        Line chart 
+        Area chart 
+        Scatter plot 
+        Treemaps
+        Box and Whiskers
+        Waterfall
+        Radar chart
+        Maps
+        Combination charts
+
+Do you know the meaning of data viz Exercise
+    Which of these statements about data visualization is false
+        Enchances understanding but not retention of info FALSE
+        Data visualization is the graphical representation of data using charts, graphs, and other visual tools
+        It enables you to present complex data to identify outliers
+        Critical part of the decision-making process in data-driven organizations
+
+How to Visualize Data Video
+    Manipulate data
+        Click chart -> Chart Design -> Select Data -> fix
+    Data Labels
+        Right click data in chart -> Add Data Labels
+    Line chart
+        Click within data range -> Insert -> Line -> whatever
+    Column chart
+        Click within data range -> Insert -> Column -> whatever
+    Pie chart
+        Click within data range -> Insert -> Pie -> whatever
+
+Visualizing Categories Exercise
+    3_4_visualizing_categories.xlsx
+
+Capturing parts of a whole Exercise
+    3_5_parts_of_a_whole.xlsx
+
+Capturing a trend Exercise
+    3_6_capturing_a_trend.xlsx

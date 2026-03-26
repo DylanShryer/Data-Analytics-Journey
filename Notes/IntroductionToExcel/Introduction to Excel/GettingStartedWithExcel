@@ -1,0 +1,134 @@
+Introdcution to Excel Video
+    What is Excel
+        Popular spreadsheet software by Microsoft
+        Insert, read, and manipulate data
+        Relied on by businesses
+    Why Excel
+        Store, process, analyze, and visualize data
+        Supports collaboration via shared workbooks, co-authoring, and commenting
+        Templates for common tasks
+    Limitations
+        Features
+            Opening workbooks
+                Limited by available memory and system resources
+            Total number of rows and columns on worksheet
+                1,048,576 rows by 16,384 columns
+    Key Definitions
+        Workbook
+            Excel file containing one or more worksheets to help organize all the data
+                The file itself
+        Worksheet
+            Primary area often referred to as a sheet or spreadsheet
+            Consists of cells organized into columns and rows
+                A sheet within the file
+        Cell
+            Box at the intersection of the grid where a row and column meet where info is contained
+        Cell Reference
+            Combination of a column letter and row number that identifies a cell in the worksheet
+            Top left corner
+                A1
+        Active Cell
+            Cell being worked with, identified by a rectangular green box
+        Range
+            Two or more cells in a worksheet that don't necessarily have to be adjacent
+        Formula
+            Mathemtical equations, cell references, or functions placed within a cell
+            Must start with an equal = sign
+        Formula Bar
+            Bar located at the top of the worksheet next to the fx label
+            Used to enter or edit values/formulas
+
+Possibilites of Excel Exercise
+    Can
+        Manage and track home expenses
+        Track retail inventory
+        Create a sunburst graph
+    Cannot
+        Get alerts and reminders vai email
+        Manage tables with 20 million rows
+
+Navigating Excel Video
+    navigating_excel_start.xslx
+    
+Loading Workbooks Exercise
+    1_1_loading_workbooks.xslx
+
+Working with Data Exercise
+    1_2_working_with_data.xslx
+
+Creating First Formula Exercise
+    1_3_creating_your_first_formula.xlsx
+
+Working with Tables Video
+    Data within cells are only related by proximity to one another
+    Tables
+        Lets Excel know that all the data contained inside is related
+        Column header row
+            First row in table that contains column headings
+        Body
+            Where all rows of data and formulas live that relate to our columns
+        Totals
+            Off by default, but can be enabled to summarize all rows in a table
+        Benefits
+            Structured references
+                Easy to read/understand
+                Reference columns by name in table
+                Dynamic and automically updates as data is added/removed
+            Data integrity
+                Built-in data validation features
+                Apply rules to columns for certain data types
+    Formatting Data
+        Tables
+            Re-size table
+            Apply slicers
+            Create pivot tables
+            Apply style options/designs
+        Cells
+            Customize fonts, alignment, data types
+            Apply conditional formatting
+            Apply cell styles/themes
+    Filtering/Sorting Data
+        Filtering
+            Hides data you do not currently want to analyze
+            Built-in comparison operations like greater than or top N
+        Sorting
+            Integral part of data analysis
+            Helps you quickly visualize/understand data better
+            Esier to find data when you know what you're looking for
+            Sort by text, numbers, dates, and times
+            Sort by formatting cell color, font color, and icons
+
+Referencing Calls Exercise
+    What are the three benefits of using structured cell references in Excel tables?
+        Easy to read and understand
+        Reference columns by name in table
+        Dynamic and automatically updates as data gets added/removed
+
+Managing Data with Tables Video
+    managing_table_starter.xlsx
+    Select everything from top to bottom
+        CTRL A
+    Create table
+        Insert -> Create Table
+    Delete column
+        Right click top of column -> Delete
+    Insert column
+        Right click top of column -> Insert (goes to left of column chosen)
+    Filter
+        Click column dropdown -> Deselect what you want -> Press okay
+    Unfilter 
+        Click column dropdown -> Clear filter
+    Custom Sort
+        Editing -> Sort & Filter -> Custom Sort -> Sort by -> Then by (sort within a sort)
+    Formatting
+        Number (probably defaults as General) -> whatever necessary
+        Decimal buttons to left and right
+
+Working with Structured Cell References
+    1_4_working_with_structured_references.xlsx
+
+Filtering Data
+    1_5_filtering_data.xlsx
+
+Formatting Tables
+    1_6_formatting_tables.xlsx

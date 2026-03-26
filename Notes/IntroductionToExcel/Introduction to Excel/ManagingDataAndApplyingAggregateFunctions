@@ -1,0 +1,144 @@
+Managing and Formatting Data Video
+    Ways to manage data
+        Data stored and managed in tabular layout
+            Columns and rows in all sheets
+        Create named ranges
+        Create Subtotals
+        Data validation
+    Named ranges
+        Name a range of columns or rows
+        Benefits include
+            Easier to reference range in formulas
+            Less time searching sheets for important ranges of data
+        Name Manager feature allows
+            Edit named ranges
+            Create new named ranges
+            Deleted named ranges
+    Subtotals
+        Sense check numerical data through calculations
+        Can help spot large anomalies early on
+        Creates aggregation within the dataset
+            Sum
+            Count
+            Average
+            Grand total
+    Data Validation
+        Useful when sharing workbooks
+        Allows user to control the values entered into a cell
+            Including the data type
+        Can add input messaes to inform user of data validation settings
+        Customize error message if user enters invalid data
+    Formatting Data
+        Can format whole sheets, invidual cells, or specific values
+            Font size
+            Sheets with borders around all cells
+            Values matching their data type (ex: currencies)
+        Conditional formatting
+            Allows users to set conditions for highlighting cells within data
+            Helps identify patterns/trends
+            Options
+                Icons
+                Data bars
+                Highlighting cells using color scales
+            Create, edit, and delete rules through Manage Rules windoew
+    Custom Formats
+        Many available formats for different data types
+        Custom section also available
+
+Manage vs Format Exercise
+    Manage
+        Ensuring any new data entered in a date column matches the data type
+        Adding subtotals and toals to sense check numerical values
+        Naming a range of cells to reference in formulas
+    Format
+        Make column headers bold
+        Format a price column with the currency sign after the digits (ex: $100)
+        Highlight the top 10 selling products in a sales dataset
+
+Managing Data Video
+    formatting_data_start.xlsx
+    Select all columns
+        CTRL + SHIFT + Down Key
+    Name range creation
+        Formulas -> Define Name -> Click okay
+        Names can now be used for the whole column (or whatever range chosen) when using formulas
+    Name Manager
+        Formulas -> Name Manager
+    Duplicate Sheet
+        Right click tab -> Move or Copy -> Create a copy -> Click okay
+    Subtotal
+        Data -> Subtotal -> Choose whatever function and specifics necessary -> Click 2 in the top left to see
+    Data Validation
+        Data -> Data Validation -> Settings -> Allow criteria -> Input message (shows up if not)
+    Custom Formatting
+        Home -> Number Format dropdown -> More Number Formats -> Custom
+    Highlighting
+        Home -> Conditional Formatting -> Top/Bottom Rules -> whatever you want
+
+Naming Ranges Exercise
+    2_1_naming_ranges.xlsx
+
+Sub-totals Exercise
+    2_2_sub_totals.xlsx
+
+Custom Formats and Validation Exercise
+    2_3_custom_formats.xlsx
+
+Aggregate and Arithmetic Operations
+    Order of operations
+        P(arenthesis)E(xponents)M(ultiplication)/D(ivision)(left-to-right)A(ddition)/S(ubtraction)(left-to-right)
+        1. Parenthesis ()
+        2. Reference operators :,
+        3. Negation -
+        4. Percent %
+        5. Exponentiation ^
+        6. Multiplication/Division */
+        7. Addition/Subtraction +-
+        8. Concatenation &
+        9. Logical Comparisons ><=!=
+    Functions
+        Preset formulas that help perform mathematical, statistical, and logical operations
+    Aggregate Functions
+        Summarize a group of values into a single result
+            SUM()
+                Total of all values in the column
+            AVERAGE()
+                Central or typical value in a set of numbers
+                Sum of all values divided by number of records
+                    AVERAGE(B2:B11)
+                    AVERAGE(B:B)
+                    AVERAGE(Students[Test Score])
+            COUNT()
+                Number of records
+            MIN()
+                Minimum value in the column
+            MAX()
+                Maximum value in the column
+
+Order of Operations Exercise
+    Parentheses
+    Exponents
+    Division
+    Multiplication
+    Addition
+    Subtraction
+
+Understanding House Prices Video
+    understanding_house_prices_starter.xlsx
+
+Summarizing Sales Exercise
+    2_4_summarizing_sales.xlsx
+
+Calculating Sales and Profit Exercise
+    2_5_calculating_sales_and_profit.xlsx
+
+    Renewal opportunities
+        Original sale to contract to renewal
+
+        maventools for Salesforce
+
+        previous opportunities with contract products (renewal opportunities to contract products)
+
+        no tcv, acv
+
+        opportunity products
